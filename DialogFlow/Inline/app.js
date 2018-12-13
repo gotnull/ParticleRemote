@@ -24,7 +24,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
   const particle = new Particle();
-  const access_token = 'eb861b8c0a18258f374f65d4735c2d92cef163a7';
+  const access_token = 'eb861b8c0a18258f374f65d4735c2d92cef163a6';
 
   function remoteControl(agent) {
     let params = agent.parameters;
